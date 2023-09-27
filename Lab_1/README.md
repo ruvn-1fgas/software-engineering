@@ -36,3 +36,7 @@ Note the alternation of signs.
 The determinant of larger matrices are calculated analogously, e.g. if M is a 4x4 matrix with first row `[a, b, c, d]`, then:
 
 `det(M) = a * det(a_minor) - b * det(b_minor) + c * det(c_minor) - d * det(d_minor)`
+
+### Test result
+
+![Test results](test_results.png)
