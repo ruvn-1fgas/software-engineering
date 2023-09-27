@@ -37,6 +37,6 @@ The determinant of larger matrices are calculated analogously, e.g. if M is a 4x
 
 `det(M) = a * det(a_minor) - b * det(b_minor) + c * det(c_minor) - d * det(d_minor)`
 
-### Test result
+### Test results
 
 ![Test results](test_results.png)
