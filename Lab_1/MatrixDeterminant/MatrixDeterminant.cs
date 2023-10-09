@@ -52,15 +52,13 @@ namespace Task.MatrixDeterminant
         /// <param name="matrix">The matrix to print.</param>
         public static void Print(int[][] matrix)
         {
-            for (int i = 0; i < matrix.Length; i++)
-            {
-                Console.Write("| ");
-                for (int j = 0; j < matrix.Length; j++)
-                    Console.Write($"{matrix[i][j]} ");
-                Console.WriteLine("|");
-            }
+            Console.WriteLine(ToString(matrix));
         }
 
+        /// <summary>
+        /// Converts the specified matrix to a string.
+        /// </summary>
+        /// <param name="matrix">The matrix to convert.</param>
         public static string ToString(int[][] matrix)
         {
             string result = "";
